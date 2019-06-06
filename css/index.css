@@ -154,43 +154,29 @@ header.fixed {
     box-sizing:border-box;
 }
 .zgm1 .zgm1_ul li{
-    width: 1.34rem;
     height: 2.96rem;
-    font:400 .12rem/.24rem "microsoft yahei";
-    color:#5d4522;
-    text-align: left;
-    padding-top: .55rem;
-    padding-left: .03rem;
-    padding-right:.05rem;
-    box-sizing:border-box;
-    text-indent: 2em;
+    line-height: 2.96rem;
+    text-align: center;
 }
-.zgm1 .zgm1_ul li:nth-child(1){
+.zgm1 .zgm1_ul li:nth-child(1) img{
    width: 1.3rem;
-   background: url(../images/it1.png) no-repeat center bottom;
-   -webkit-background-size: 1.3rem;
-   background-size: 1.3rem;
+   height: 2.84rem;
+   vertical-align: bottom;
 }
-.zgm1 .zgm1_ul li:nth-child(2){
+.zgm1 .zgm1_ul li:nth-child(2) img{
    width: 1.34rem;
    height: 2.96rem;
-    background: url(../images/it2.png) no-repeat center bottom;
-   -webkit-background-size: 1.34rem;
-   background-size: 1.34rem;
+    vertical-align: bottom;
 }
-.zgm1 .zgm1_ul li:nth-child(3){
+.zgm1 .zgm1_ul li:nth-child(3) img{
    width: 1.33rem;
    height: 2.91rem;
-  background: url(../images/it3.png) no-repeat center bottom;
-   -webkit-background-size: 1.33rem;
-   background-size: 1.33rem;
+  vertical-align: bottom;
 }
-.zgm1 .zgm1_ul li:nth-child(4){
+.zgm1 .zgm1_ul li:nth-child(4) img{
    width: 1.31rem;
    height: 2.89rem;
-    background: url(../images/it4.png) no-repeat center bottom;
-   -webkit-background-size: 1.31rem;
-   background-size: 1.31rem;
+    vertical-align: bottom;
 }
 
 /*zgm2*/
@@ -341,6 +327,7 @@ header.fixed {
       background: url(../images/l_bt.png) no-repeat center;
       -webkit-background-size: .7rem;
       background-size: .7rem;
+      transition: 0.4s;
 }
 .zgm3 .sw_w .btns div.cur{
       background: url(../images/d_Bt.png) no-repeat center;
@@ -381,11 +368,11 @@ header.fixed {
 /*zgm4*/
 .zgm4 {
     width: 7.5rem;
-    /*height: 8.68rem;*/
+    height: 8.68rem;
     background:url(../images/m4_02.jpg) no-repeat center #fff9d6;
     -webkit-background-size: 7.5rem;
     background-size: 7.5rem;
-    padding-bottom: .2rem;
+    /*padding-bottom: .2rem;*/
 }
 .zgm4 h2{
     height: 1.05rem;
@@ -402,13 +389,13 @@ header.fixed {
     margin-bottom: .25rem;
 }
 .zgm4 .tab{
-    /*height:5.98rem;*/
+    height:5.98rem;
     width: 6.32rem;
     margin: auto;
     background:url(../images/m44.png) no-repeat center;
-    -webkit-background-size: 6.32rem 13rem;
-    background-size: 6.32rem 13rem;
-    margin-bottom: .25rem;
+    -webkit-background-size: 5.98rem;
+    background-size: 5.98rem;
+    /*margin-bottom: .25rem;*/
     padding-top: .34rem;
     box-sizing:border-box;
 }
@@ -421,6 +408,10 @@ header.fixed {
 .zgm4 .tab .tab_s{
     width: 5.6rem;
     margin: auto;
+}
+.zgm4 .tab .tab_scroll{
+     height: 3.4rem;
+   -webkit-overflow-scrolling : touch;
 }
 .zgm4 .tab .tab_title{
     width: 3.7rem;

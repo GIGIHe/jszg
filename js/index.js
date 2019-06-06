@@ -31,11 +31,12 @@ $(function(){
              $(".table").hide().eq(index).fadeIn(200);
         })
     })
-        // let timer = setInterval(function(){
-        //     clearInterval()
-        // $(".btns div").each(function(inx){
-        //     // console.log($(this).index())
-        // $(this).addClass('cur').siblings("div").removeClass("cur")
-        // })
-        // },2500)
+     // let index = 0;
+     // setInterval(function(){
+     //    $(".btns div").eq(index).addClass("cur").siblings("div").removeClass("cur")
+     //        index++;
+     //        if(index>2){
+     //            index = 0
+     //        }
+     //    },2500)
 })
