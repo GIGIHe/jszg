@@ -411,6 +411,7 @@ header.fixed {
 }
 .zgm4 .tab .tab_scroll{
      height: 3.4rem;
+     overflow-y:scroll;
    -webkit-overflow-scrolling : touch;
 }
 .zgm4 .tab .tab_title{

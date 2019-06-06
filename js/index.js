@@ -39,4 +39,5 @@ $(function(){
      //            index = 0
      //        }
      //    },2500)
+     // $(".tab_scroll").
 })
